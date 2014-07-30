@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8BAE47FA-2290-4E0E-83C5-4ABE2ECBDA8B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FoSun</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A70ADCB-8931-4D55-B895-49399E396F16</key>
+		<string>svn://180.153.88.234/ios/baseApp/branches/FoSun</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FoSun.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A70ADCB-8931-4D55-B895-49399E396F16</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>4A70ADCB-8931-4D55-B895-49399E396F16</key>
+		<string>svn://180.153.88.234/ios/baseApp</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://180.153.88.234/ios/baseApp/branches/FoSun/FoSun.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A70ADCB-8931-4D55-B895-49399E396F16</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A70ADCB-8931-4D55-B895-49399E396F16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FoSun</string>
+		</dict>
+	</array>
+</dict>
+</plist>

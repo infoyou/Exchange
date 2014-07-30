@@ -1,0 +1,1072 @@
+/* 
+  Localizable.strings
+  Project
+
+  Created by XXX on 12-05-25.
+  Copyright (c) 2011年 _MyCompanyName_. All rights reserved.
+*/
+
+appTitle                  = "Exchange";
+loginUserNameEmpty = "邮箱为空";
+loginPasswordEmpty = "密码为空";
+loadingUserDataTitle = "加载用户数据...";
+
+loginErrorCustomer = "商户名错误";
+loginErrorUserName = "用户名错误";
+loginErrorPassword = "密码错误";
+loginErrorIdIllegal = "ID非法";
+loginErrorDB    = "数据库操作错误";
+
+// common
+refreshTitle = "刷新";
+loadingTitle = "装载中...";
+loadMoreTitle = "上拉装载更多";
+loadNoResultTitle = "没有更多内容";
+closeTitle = "关闭";
+copyTitle = "复制";
+loadMore          = "上拉装载更多";
+pullDownToRefresh = "下拉可刷新...";
+releaseToRefresh  = "松开即可刷新...";
+lastUpdate        = "最新更新:";
+actionSuccessMsg  = "操作成功";
+actionFaildMsg    = "操作失败";
+cancelTitle       = "取消";
+yesTitle          = "是";
+noTitle           = "否";
+deleteActionTitle = "删除";
+backTitle         = "返回";
+doneTitle         = "完成";
+allTitle          = "所有";
+pastEventTitle   = "往期活动";
+thisMonthTitle    = "本月";
+entireTitle       = "全部";
+processingTitle   = "处理中...";
+editTitle         = "编辑";
+favoriteTitle     = "收藏";
+unfavoriteTitle   = "取消收藏";
+saveTitle         = "保存";
+searchTitle       = "搜索";
+searchPromptTitle = "输入关键字快速搜索";
+inputTextTitle    = "点击输入...";
+searchResultTitle = "搜索结果";
+goTitle           = "给我搜";
+okTitle           = "OK";
+updateTitle       = "升级";
+noThanksTitle     = "下次再说";
+offTitle          = "关闭";
+onTitle           = "打开";
+autoTitle         = "自动";
+detailsTitle      = "详细";
+modifyTitle       = "修改";
+clearSearchHistoryMsg = "清除搜索记录";
+searchingTitle    = "搜索中...";
+checkMoreTitle    = "查看更多";
+checkDetailTitle  = "查看详细";
+checkAllTitle     = "查看全部";
+emptyListMsg      = "暂无内容";
+checkInputMsg     = "请检查必填项";
+inputIndexMsg     = "第";
+inputItemMsg     = "项";
+
+// connection
+userAuthFailedMsg         = "授权失败";
+connectionErrorMsg        = "网络错误，请确保您的连接可用。";
+timeoutMsg                = "服务器忙，请稍候再试。";
+networkUnstableMsg        = "网络错误，请确保您的连接可用。";
+responseMsg               = "网络连接不稳定，获取信息失败，请稍候再试";
+response304Msg            = "网络连接无返回，我们将解决该问题。";
+response400Msg            = "无效网络连接请求，我们将解决该问题。";
+response403Msg            = "网络连接请求被禁止，我们将解决该问题。";
+response404Msg            = "网络请求失败，我们将解决该问题。";
+response500Msg            = "服务器内部错误，我们将解决该问题。";
+response501Msg            = "无效的URL请求，我们将解决该问题。";
+response502Msg            = "网关错误，我们将解决该问题。";
+response503Msg            = "服务器端不可用，我们将解决该问题。";
+responseCommonErrorMsg    = "服务器响应错误";
+weWillSolveTitle          = "我们将解决该问题。";
+noResponseMsg             = "网络请求无返回。";
+refreshSessionFailedMsg   = "刷新session失败";
+
+// xml parser
+parserXmlErrMsg           = "解析XML失败";
+parserXmlNullMsg          = "返回值为空";
+
+// homepage
+homepageTitle             = "首页";
+messageTitle              = "消息";
+nearbyTitle               = "附近";
+meTitle                   = "我";
+inviteTitle               = "邀请";
+askTitle                  = "提问";
+startCircleTitle          = "开始吧!";
+quickFeedNotifyMsg        = "快速分享有趣的东东。";
+quickQANotifyMsg          = "快速提问。";
+aCircleTitle              = "A Circle";
+ofExpatTitle              = "Of Expats";
+byExpatTitle              = "By Expats";
+forExpatTitle             = "For Expats";
+youHaveMsg                = "您有";
+groupPaymentMsg           = "项协会待缴费";
+eventPaymentMsg           = "项活动待缴费";
+todoItemMsg               = "消息通知";
+followWechatForHelpMsg    = "关注微信公众号获得帮助和最新资讯";
+donateTitle               = "捐赠";
+homepageSolganTitle       = "中国深度、全球广度!";
+mottoTitle                = "认真、创新、追求卓越!";
+
+
+// hot news
+hotNewsTitle              = "中欧新闻";
+loadNewsFailedMsg         = "装载新闻失败，请稍候再试。";
+newNewsLoadedMsg          = "更新%d条新闻";
+clickImageForBigTitle     = "点击看大图";
+favoriteNewsHandyNotifyMsg= "可以收藏这篇新闻";
+
+// Q & A
+qaTitle                   = "问答";
+
+// comment
+commentTitle              = "评论";
+commentsTitle             = "评论";
+loadCommentFailedMsg      = "装载评论失败，请稍候再试。";
+sendCommentFailedMsg      = "发送评论失败。";
+sendCommentDoneMsg        = "评论发送成功。";
+commentEmptyMsg           = "评论内容不能为空";
+writeCommentTitle         = "添加评论...";
+writeAnswerTitle          = "我知道...";
+
+// composer
+tagTitle                  = "标签";
+placeTitle                = "地点";
+textComposerPlaceholder   = "您可以点击键盘上的\"Done\"来隐藏键盘";
+sendTitle                 = "发送";
+closeNotificationTitle    = "关闭后，内容将丢失。您确认关闭吗?";
+addPhotoTitle             = "添加照片";
+tagHeader                 = "标签:";
+placeHeader               = "地点:";
+selectTagNotifyMsg        = "请至少选择一个标签";
+loadPlaceFailedMsg        = "获取地点列表失败。";
+tagStillLoadingMsg        = "正在装载标签，请稍候再试。";
+discardTitle              = "离开";
+commentFieldPlaceHolder   = "我来说两句";
+sendingTitle              = "发送中...";
+
+// location
+locatingMsg               = "定位中...";
+locationTimeOutMsg        = "定位超时，请稍候再试。";
+locationSevDisabledMsg    = "您没有为中欧校友汇开启“定位服务”，请到iPhone“设置”中开启“定位服务”。";
+kilometerTitle            = "公里";
+locationInProcessMsg      = "定位中，请稍候再选择地点。";
+nearbyPlaceListTitle      = "附近地点列表";
+loadCountryFailedMsg      = "获取国家列表失败。";
+
+// image
+saveImageSuccessMsg       = "图片保持成功";
+originalImageTitle        = "原图";
+bWImageTitle              = "黑白";
+photoEffectHandleTitle    = "照片效果处理";
+clearCurrentSelection     = "删除已选照片";
+takePhotoTitle            = "拍照";
+chooseExistingPhotoTitle  = "从相册选择";
+bigPicTitle               = "大图";
+loadImageFailedMsg        = "获取图片失败。";
+normalTitle               = "普通";
+inkWellTitle              = "黑白";
+classicTitle              = "古典";
+photoDiscardMsg           = "照片将不会被保存。";
+sharePhotoTitle           = "分享照片";
+
+// web view
+prePageTitle              = "后退";
+nextPageTitle             = "前进";
+
+// enterprise
+caseShareTitle            = "企业案例分享";
+shareSuccessMsg           = "互动分享、合作共赢";
+caseShareAdiMsg           = "即将推出校友企业服务介绍与分享，如果您企业的服务已经获得有影响力的品牌或消费者的认可，请联系商谈如何向校友介绍您企业的服务。";
+caseShareEmailSubjectMsg  = "'企业案例分享'内容合作";
+caseSloganmsg             = "愿为校友提供优惠、优质的服务!";
+publicDiscussGroupTitle   = "公共讨论区";
+joinedDiscussGroupTitle   = "已加入的群组";
+otherDiscussGroupTitle    = "更多群组...";
+clubAndBranchGroup        = "协会、分会与群组";
+popularGroup              = "热门群组";
+
+
+// feed
+filterHeaderTitle         = "筛选:";
+sortHeaderTitle           = "排序:";
+filterTitle               = "筛选";
+doFilterTitle             = "筛选";
+sortTitle                 = "排序";
+sortByCreateTimeTitle     = "创建时间";
+sortByPraiseTitle         = "赞数量";
+sortByNewCommentTimeTitle = "最新评论时间";
+sortByCommentCountTitle   = "评论数量";
+sortOptionsTitle          = "排序选项";
+tagLoadingMsg             = "正在装载标签信息，请稍候再试。";
+placeLoadingMsg           = "正在装载地点信息，请稍候再试。";
+countryTitle              = "国家";
+loadFeedFailedMsg         = "获取帖子失败。";
+loadWelfareFailedMsg      = "获取福利失败。";
+hourAgoTitle              = "小时前";
+minAgoTitle               = "分钟前";
+secAgoTitle               = "秒前";
+hoursAgoTitle             = "小时前";
+minsAgoTitle              = "分钟前";
+secsAgoTitle              = "秒前";
+sendFeedDoneMsg           = "发送帖子成功";
+sendFeedFailedMsg         = "帖子发送失败";
+sendQuestionDoneMsg       = "提问成功";
+sendQuestionFailedMsg     = "提问失败";
+likeThisTitle             = "位喜欢";
+fromTitle                 = "来自";
+deleteFeedWarningMsg      = "您确认要删除该条帖子吗?";
+deleteCommentWarningMsg   = "您确认要删除该条评论吗?";
+deleteFeedFailedMsg       = "删除帖子失败。";
+deleteFeedDoneMsg         = "删除帖子成功。";
+deleteCommentDoneMsg      = "删除评论成功。";
+deleteCommentFailedMsg    = "删除评论失败。";
+feedTitle                 = "帖子";
+likerTitle                = "赞用户列表";
+newFeedLoadedMsg          = "更新%d条帖子";
+newFeedTitle              = "新帖子";
+newCommentTitle           = "新评论";
+yearTitle                 = "年";
+monthTitle                = "月";
+dayTitle                  = "日";
+
+// user profile
+pointTitle                = "积分";
+userProfileTitle          = "用户信息";
+loadUserProfileFailedMfsg  = "获取用户信息失败。";
+invitationSentPointTitle  = "通过发送%d份邀请，获得了%d分。";
+invitationDonePointTitle  = "通过成功邀请%d位朋友加入，获得了%d分。";
+feedPointTitle            = "通过发送%d条帖子，获得了%d分。";
+commentPointTitle         = "通过发表%d条评论，获得了%d分";
+totalPointsTitle          = "共计: %d分";
+liveStatusTitle           = "到中国：%d年，%@";
+peopleTitle               = "人";
+favoritedItemTitle        = "收藏的供需";
+favoritedWelfareTitle     = "收藏的专享";
+favoritedTitle            = "已收藏";
+invitedTitle              = "已邀请";
+uninvitedTitle            = "未邀请";
+joinedTitle               = "加入的";
+unjoinedTitle             = "未加入的";
+loadSNSFriendsFailedMsg   = "获取%@朋友列表失败。";
+facebookFriendsTitle      = "Facebook上的朋友";
+twitterFriendsTitle       = "Twitter上的朋友";
+linkedinFriendsTitle      = "Linkedin上的联系人";
+addressbookFriendsTitle   = "通讯录上的联系人";
+snsListTitle              = "SNS列表";
+invitationDoneMsg         = "成功发出邀请。";
+invitationFailedMsg       = "发送邀请失败。";
+userNameTitle             = "用户名";
+updatePhotoDoneMsg        = "修改照片成功。";
+updatePhotoFailedMsg      = "修改照片失败。";
+updateNationalityDoneMsg  = "修改国籍成功。";
+updateNationalityFailedMsg= "修改国籍失败。";
+updateLivingCityDoneMsg    = "修改城市成功。";
+updateLivingCityFailedMsg  = "修改城市失败。";
+updateLivingYearsDoneMsg   = "修改居住年限成功。";
+updateLivingYearsFailedMsg = "修改居住年限失败。";
+updateUsernameDoneMsg     = "修改用户名成功。";
+updateUsernameFailedMsg   = "修改用户名失败。";
+editProfileTitle          = "编辑用户信息";
+currentCityTitle          = "当前城市";
+answerTitle               = "回答";
+answersTitle              = "回答";
+unfavoritePeopleDoneMsg   = "取消收藏成功。";
+unfavoritePeopleFailedMsg = "取消收藏失败。";
+favoritePeopleDoneMsg     = "收藏朋友成功。";
+favoritePeopleFailedMsg   = "收藏朋友失败。";
+requireTitle              = "必填";
+optionalTitle             = "可选";
+emailTitle                = "邮箱";
+passwordTitle             = "密码";
+nationalityTitle          = "国籍";
+yearsInChinaTitle         = "居住年限";
+currentResidenceTitle     = "居住地";
+serviceTermTitle          = "服务条款和隐私政策";
+usernameEmptyMsg          = "用户名为必填项。";
+emptyUsenameCannotUploadMsg="新用户名不能为空。";
+emailEmptyMsg             = "邮箱地址为必填项。";
+nationalityEmptyMsg       = "国籍为必填项。";
+residenceEmptyMsg         = "当前居住地为必填项。";
+emailOccupiedMsg          = "该邮箱已被占用。";
+signinByLinkedinTitle     = "通过Linkedin登录";
+signinConfirmTitle        = "确认登录信息";
+signinTitle               = "登录";
+userSignInInfoMsg         = "最近登录时间: %@, %@";
+ssoFailedMsg              = "登录失败，请确保登录账号正确和网络连接稳定";
+reSignInTitle             = "重新登录";
+signinFailedMsg           = "登录失败，请稍候再试。";
+incentivesTitle           = "每向一位未注册的好友发出邀请，您将获得1点积分；您的好友收到您的邀请后，完成注册，如果您是他的第一位邀请者，您将获得50点积分。";
+ABFriendJoinedStatusTitle = "您的通讯录好友中已有%d位加入了";
+LinkedinFriendJoinedStatusTitle = "您Linkedin好友中已有%d位加入了";
+searchABMsg               = "在您的通讯录中搜索好友?";
+notifyABContactUploadMsg  = "为了搜索您在中欧校友汇中的好友，我们需要将您通讯录中的信息通过安全方式发送到服务器。";
+allowTitle                = "允许";
+donotAllowTitle           = "不允许";
+pointStatusTitle          = "积分";
+receiveAwardHistoryTitle  = "领奖记录";
+sendInvitation            = "发送一次邀请";
+invitationAcceptPrimeTitle= "邀请被接收";
+invitationAcceptNonPrimeTitle= "邀请被接收，您是非第一邀请者";
+creditRuleTitle           = "积分规则";
+friendsOnECTitle          = "已加入的朋友";
+invitationAcceptCommentMsg= "如果您的朋友接受了邀请，并且您是第一位邀请他/她的人，您将获得积分。";
+scanningABMsg             = "正在扫描通讯录，请稍候再试。";
+friendsTitle              = "好友";
+
+// Q & A
+newQuestionLoadedMsg      = "更新%d条问题";
+loadQuestionFailedMsg     = "获取问题列表失败，请稍候再试。";
+newQuestionTitle          = "提问";
+newAnswerTitle            = "新答案";
+
+// location
+introTitle                = "简介";
+userPlaceTitle            = "位置";
+loadNearbyDoneMsg         = "获取周边信息成功。";
+loadNearbyFailedMsg       = "获取周边信息失败。";
+noNearbyInfoMsg           = "周边没有相关商家信息。";
+loadServiceGroupFailedMsg = "获取服务分类失败。";
+filterSortTitle           = "筛选/排序";
+entireCityTitle           = "整个城市";
+within2kmTitle            = "< 2公里";
+within5kmTitle            = "< 5公里";
+within10kmTitle           = "< 10公里";
+sortByDistanceTitle       = "按距离";
+sortByCommonRateTitle     = "按赞数量";
+sortByMyCountryRateTitle  = "按本国人气";
+sortByCommentRateTitle    = "按评论数量";
+kmTitle                   = "公里";
+meterTitle                = "米";
+mapTitle                  = "地图";
+listTitle                 = "列表";
+SPSequenceTitle           = "%d - %d 商家";
+callTitle                 = "拨打";
+webSiteTitle              = "网站";
+photoTitle                = "照片";
+taxiTitle                 = "出租车";
+showCardTitle             = "显示地址卡片";
+addPhotoDoneTitle         = "添加照片成功。";
+addPhotoFailedTitle       = "添加照片失败。";
+likersLoadingTitle        = "赞用户装载中。";
+likersLoadFailedTitle     = "赞用户装载失败。";
+likeActionDoneMsg         = "赞操作成功。";
+unlikeActionDoneMsg       = "取消赞操作成功。";
+likeActionFailedMsg       = "赞操作失败。";
+unlikeActionFailedMsg     = "取消赞操作失败。";
+favoriteDoneMsg           = "收藏成功。";
+unfavoriteDoneMsg         = "取消收藏成功。";
+favoriteFailedMsg         = "收藏失败。";
+unfavoriteFailedMsg       = "取消收藏失败。";
+checkinFailedMsg          = "签到失败，请联系工作人员";
+callThisNumberTitle       = "拨打 %@?";
+addPhotoForVenueTitle     = "为该场地添加照片，并且照片将被公开";
+loadPhotoFailedMsg        = "获取照片失败。";
+venueTitle                = "商家";
+venuesTitle               = "%d - %d 商家";
+fetchPlacesFailedMsg      = "没有找到地标性地址。";
+atTitleMsg                = "在";
+nearbyServiceUnavailableMsg= "不能搜索附近服务";
+locationServiceDeniedMsg  = "您必须允许该应用程序使用位置服务才能搜索附近服务";
+
+// nearby item
+IamDoingTitle                   = "冒个泡";
+fetchNearbyItemDetailFailedMsg  = "装载商家详细信息失败。";
+fetchNearbyPeopleFailedMsg      = "获取附近校友信息失败。";
+fetchNearbyPlaceFailedMSg       = "获取附近地点失败";
+branchTitle                     = "分店";
+otherBranchTitle                = "其他分店";
+iamHereTitle                    = "我在这里";
+beFirstCheckinMsg               = "成为第一位签到校友";
+totalCheckinCountMsg            = "共签到%d次";
+fetchCheckinUserFailedMsg       = "获取签到用户失败";
+checkinAlumnusTitle             = "到过这的校友";
+nearbyAlumnusTitle              = "附近校友";
+checkinDoneMsg                  = "签到成功";
+alumniCouponTitle               = "福利";
+alumniExclusiveTitle            = "校友专享";
+nearbyCouponTitle               = "附近";
+nearbyVenuesTitle               = "附近门店";
+loadBrandsFailedMsg             = "获取校友企业列表失败";
+allowedBranchsTitle             = "适用门店";
+ialumniCouponTitle              = "中欧校友汇 优惠";
+showForUserConponTitle          = "展示此券，即享优惠";
+alumniWorkedInCompanyTitle      = "查看在该企业的校友  >";
+alumniInCompanyTitle            = "该企业校友";
+fetchBrandDetailFailedMsg       = "获取品牌详细信息失败";
+fetchBrandsFailedMsg            = "获取品牌信息失败";
+allBranchesTitle                = "所有门店";
+fetchAlumnusFailedMsg           = "获取校友信息失败";
+checkinFarAwayMsg               = "离门店太远，不能签到";
+couponTipsMsg                   = "温馨提示";
+couponTip_1Msg                  = "本优惠最终解释权归商家所有，如果有疑问请与商家联系。";
+couponInfoTitle                 = "优惠信息";
+alumniCompanyTitle              = "校友企业";
+nonAlumniCompanyTitle           = "非校友企业";
+nearestVenueDistanceTitle       = "最近门店%.1f公里";
+contactUsTitle                  = "联系我们";
+shareToWechatTitle              = "推荐给微信好友";
+
+
+// setting
+settingsTitle             = "系统设置";
+currentSystemLanguageTitle= "当前语言";
+followUsOnWechatTitle     = "关注中欧校友汇微信帮助平台";
+followWechatPublicNoTitle = "关注中欧校友汇微信公众号";
+followUsOnWechatForMoreHelpTitle = "更多帮助，请关注中欧校友汇公众号";
+languageTitle             = "语言";
+languageSwitchDoneMsg     = "语言切换完成";
+signOutTitle              = "退出登录";
+signOutNotifyMsg          = "您确认要退出登录吗？";
+languageSwitchFailedMsg   = "切换语言失败，请稍候再试。";
+newsFontSizeTitle         = "新闻字体";
+largeTitle                = "大";
+mediumTitle               = "中";
+smallTitle                = "小";
+todayTitle                = "今天";
+profileSettingTitle       = "个人设置";
+followWechatPublicNoNoteMsg = "请关注中欧中欧校友汇 App微信公众号，以便获得App的技术支持，也请提出任何意见或建议。";
+followMethod1Msg = "打开微信\"朋友们\"的\"添加朋友\"->点击\"查找微信公众账号\"->搜索\"<span style=\"color:#FF0000\"><b>ceibsialumni</b></span>\"后点击关注。";
+followMethod2Msg = "长按下方的二维码图片，保存到手机相册，然后打开微信->点击右上角菜单的\"扫一扫\"->点击\"相册选择\"->选择该二维码图片，即可关注。";
+option1Title = "方法一";
+option2Title = "方法二";
+saveQRPicMsg = "您确认将公众号二维码保存到相册吗？";
+
+// system message
+awardTitle                = "摇奖";
+updateAvailableTitle      = "新版本可用";
+
+// service
+servicePrivacyTermsTitle  = "服务条款和隐私政策";
+tipsTitle                 = "     贴士     ";
+priceTitle                = "人均";
+costTitle                 = "费用";
+tasteTitle                = "口味";
+topicTitle                = "主题";
+categoryTitle             = "类别";
+compensationTitle         = "薪水";
+shareTitle                = "分享";
+shareToFriendTitle        = "告诉朋友";
+smsTitle                  = "同时短信发送";
+smsSentFailed             = "发送短信失败";
+phoneTitle                = "电话";
+paymentErrorMsg           = "支付失败，请稍候再试";
+paymentDoneMsg            = "支付成功";
+
+// system
+hotlineTitle      = "帮助热线：";
+// call
+callActionSheetTitle = "您要拨打该号码吗？";
+callTitle           = "拨打";
+
+logoutMsgTitle = "您确认退出登录吗?";
+deleteTitle = "请删除应用，重新下载安装!";
+noteTitle  = "提示";
+noSupportTitle  = "设备不支持";
+sessionInvalidTitle = "登录超时，请重新登录!";
+logoutTitle = "退出登录";
+loginUserName = "邮箱";
+loginPassword = "激活码";
+loginTitle = "登录";
+registLogin = "激活邮箱";
+loginLogin = "登录";
+anonymousTitle = "游客登录";
+loginPSWDTitle = "忘记密码?";
+resetPSWDTitle = "重置密码";
+keyboardTitle = "键盘";
+backgroundLoadFailedMsg = "首页异步装载内容失败";
+
+forgetPSWDNoteTitle = "备注: \n 所参加的课程 例如:EMBA或MBA或CEO等";
+loginNote1Title = "中欧校友汇 常回来看看";
+loginNote2Title = "或 ";
+loginHelpTitle = "忘记用户名或密码";
+loginHelpButtonTitle = "查看帮助";
+shareSoftTitle = "分享中欧校友汇给朋友";
+shareAndInviteTitle = "分享与邀请校友";
+enterpriseProposalTitle = "企业拥抱移动互联";
+
+
+// login page
+userInfoNeeded  = "请输入您的用户名!";
+pswdInfoNeeded  = "请输入您的密码!";
+userPlaceholder = "qronghao.e08sh2";
+namePlaceholder = "用户名";
+pswdPlaceholder = "密码";
+loginFailedMsg  = "登录失败，请确认用户名密码正确。";
+
+// home page
+newsActivityTitle = "新闻动态";
+reportTitle       = "活动报告";
+upcomingTitle     = "活动预告与签到";
+cooperationTitle  = "分享与合作";
+eventTitle        = "活动";
+eventReportTitle  = "活动报道";
+alumniSearchTitle  = "校友查询";
+bizCoopTitle      = "商机";
+supportTitle      = "技术支持";
+personSettingTitle= "个人中心";
+feedbackTitle     = "合作建议";
+surveyTitle       = "调查问卷";
+backAlumniCheckInTitle    = "返校日签到";
+shakeTitle        = "摇一摇";
+shakeExchangeNameCardTitle = "校友聚会碰碰加好友";
+shakeNameCardTitle = "摇名片";
+videoTitle        = "视频";
+videoPlaceholderTitle = "演讲者、主题等关键字";
+openVideoTitle    = "观看视频";
+clubTitle         = "校友分会/俱乐部";
+moreTitle         = "更多";
+bracketsNewsTitle = "【报道】";
+bracketsVideoTitle = "【视频】";
+recommendBracketsVideoTitle = "【推荐视频】";
+alumniTitle       = "校友";
+classTitle        = "班级";
+alumniEventTitle  = "校友活动";
+alumniInteractTitle="校友互动";
+profAssocTitle    = "协会";
+nearbyAlumniTitle = "附近校友";
+questionTitle     = "调查问卷";
+alumniProfileTitle= "个人信息";
+alumniNewsTitle   = "校友新闻";
+filterTitle       = "筛选";
+selectTitle       = "选择";
+questionnaireTitle = "问卷调查";
+aboutQuestionnaireTitle = "关于中欧校友汇使用的问卷调查";
+aboutCEIBSTitle = "关于中欧校友汇";
+supplyDemandTitle         = "供需消息";
+mySupplyDemandTitle       = "我的供需";
+publishSupplyTitle        = "发布供应";
+publishDemandTitle        = "发布需求";
+publishSupplyDemandTitle  = "发布供需";
+supplyTitle               = "供";
+demandTitle               = "需";
+supplyLongTitle           = "供应";
+demandLongTitle           = "需求";
+publishTitle              = "发布";
+supplyDemandTagPlaceholderTitle = "请添加标签，便于查找，用逗号分割";
+supplyDemandContentTitle = "供需描述";
+supplyDemandContentEmptyMsg = "供需描述不能为空";
+supplyDemandTagsEmptyMsg = "请添加标签";
+selectSupplyDemandTypeMsg = "请选择供需类型";
+loadSupplyDemandFailedMsg = "获取供需失败";
+supplyDemandSearchPlaceholderTitle = "搜索供需描述关键字";
+searchTagTitle = "标签搜索\"%@\"";
+addTagTitle = "添加标签";
+supplyDemandSentNotifyMsg = "恭喜您的供需已发布，正在等待管理员的审核，请耐心等待。";
+
+signCodeTitle = "签到码";
+nameTitle = "姓名";
+queryTitle = "查询";
+clearTitle = "清空";
+blankQueryTitle = "查  询";
+blankClearTitle = "清  空";
+classQueryTitle = "班级";
+genderTitle  = "性别";
+countryTitle = "国家";
+companyTitle = "公司";
+companyPlaceTitle = "职位";
+industryTitle = "行业";
+pleaseSelectTitle = "请选择";
+backBtnTitle      = "返回";
+sureTitle         = "确定";
+cancelTitle       = "取消";
+queryLimitMsg     = "超出当日查询次数，请明日再用。";
+searchInputTitle  = "请输入查询条件:";
+searchConditionTitle  = "至少输入2个字";
+
+maleTitle = "男";
+femaleTitle = "女";
+companyTitle = "公司";
+fetchAlumniFailedMsg = "查询人员失败";
+positionTitle  = "职位";
+mobileTitle  = "手机";
+emailTitle = "Email";
+companyNameTitle = "公司";
+companyAddressTitle = "地址";
+companyPhoneTitle = "电话";
+companyFaxTitle = "传真";
+companyCityTitle = "城市";
+companyProvinceTitle = "省份";
+classQueryTitle = "班级";
+allSponsorTitle   = "主办方";
+allCityTitle      = "城市";
+unApprovedTitle   = "未审批";
+approvedTitle   = "已审批";
+addContactTitle = "同时添加到手机通讯录";
+saveAlumniTitle = "收藏此校友";
+sinaWeiboTitle = "新浪微博";
+weixinTitle = "微信";
+
+// Event
+eventDetailTitle   = "活动明细";
+sponsorDetailTitle = "主办方明细";
+noSponsorTitle = "无赞助商";
+add2CalendarTitle = "添加到日历";
+calendarTitle = "日历";
+managerTitle      = "负责人:";
+introductionTitle = "简介";
+checkedinAlumnusTitle           = "查看已签到校友";
+alumniCheckinFarAwayMsg         = "离场所太远，不能签到";
+noRegistrationFeeMsg            = "请用签到码至签到台缴费";
+notSignUpMsg                    = "请用签到码至签到台完成签到";
+discussVoteTitle                = "现场讨论与投票";
+iKnowTitle                      = "知道了";
+tryAgainTitle                   = "再试一次";
+
+checkedinAlumnusListTitle       = "已签到校友";
+eventDiscussionTitle            = "现场讨论";
+eventVoteTitle                  = "现场投票";
+joinEventDiscussTitle           = "参与讨论";
+checkinNeedConfirmMsg           = "请用签到码至签到台确认";
+shouldPayTitle                  = "应付报名费:";
+actualPayTitle                  = "已付:";
+checkinFailedEventOverdueMsg    = "活动结束，不能签到";
+digitalTicketTitle              = "电子门票";
+checkinResultTitle              = "签到状态";
+continueCheckinTitle            = "继续完成签到流程";
+checkAdminWhetherApprovedMsg    = "查看签到是否确认完毕";
+discussTitle                    = "讨论";
+appearAlumniTitle               = "校友";
+checkinConfirmedMsg             = "签到确认完毕";
+fetchEventDetailFailedMsg       = "获取活动详细内容失败";
+eventNotBeginMsg                = "活动还未开始";
+eventDuplicateCheckinMsg        = "您已签到，不能重复签到";
+haveSignedUpTitle               = "已报名";
+haveNotSignedUpTitle            = "未报名";
+eventDetailSignupTitle          = "报名参加";
+signedUpCountTitle              = "已报名人数";
+eventCellSignupTitle            = "报名";
+checkedinCountTitle             = "已签到人数";
+signedUpAlumniTitle             = "已报名校友";
+addCalendarFailedMsg            = "添加到日历失败";
+addTitle                        = "添加";
+moreInfoDownloadTitle           = "更多详情，请下载中欧校友汇 App: %@";
+downloadTitle                   = "下载";
+notStartTitle                   = "未开始";
+closedTitle                     = "已关闭";
+inProcessTitle                  = "进行中";
+votedTitle                      = "已投票";
+notVotedTitle                   = "未投票";
+loadEventTopicFailedMsg         = "获取问题列表失败";
+loadEventOptionFailedMsg        = "获取选项失败";
+fillVoteTitle                   = "填写投票";
+selectOptionConfirmMsg          = "您确认选择该项吗?";
+voteTitle                       = "投票";
+shareBySMSTitle                 = "通过短信分享";
+shareByWeixinTitle              = "通过微信分享";
+appShareByWeChatDoneMsg         = "通过微信分享成功";
+sharedFromiAlumniTitle          = "分享自中欧中欧校友汇，%@，%@说:";
+appShareToWeChatGroupTitle      = "分享给微信校友圈";
+appShareByWeChatFailedMsg       = "通过微信分享失败，请再次尝试";
+noWeChatMsg                     = "您未安装微信App，请先安装";
+installTitle                    = "安装";
+donotInstallTitle               = "不安装";
+appRecommendTitle               = "推荐一个方便校友联络和拓展商机的应用!";
+voteRepeatedlyMsg               = "您已对该题目投过票，不能重复投票";
+voteInCloseStatusMsg            = "该题目关闭中";
+selectOneOptionMsg              = "请选择一个选项";
+emptyContentNotifyMsg           = "欢迎踊跃发言";
+tableInfoTitle                  = "桌号:";
+cademicAndLecturesTitle         = "学术与讲座";
+playAndPartyTitle               = "班级与其他";
+startupTitle                    = "创业那点事";
+startupProjectTitle             = "创业项目";
+projectDiscussTitle             = "项目讨论";
+myEventMsg                      = "我的活动";
+mySignUpEventMsg                  = "报名的活动";
+myCheckInEventMsg                 = "签到的活动";
+signedAndJoinedEventTitle       = "已报名或已参加的活动";
+groupLatestEventTitle           = "以及已加入的协会俱乐部最新活动";
+holdDayTitle                    = "天后";
+eventAwardFailedMsg             = "摇奖失败，请稍候再试";
+noGrantedForCalendarTitle       = "缺少添加到日历的权限";
+howToGrantCalendarMsg           = "请到iPhone的\"设置\"-->\"隐私\"-->\"日历\"-->\"中欧校友汇\"开启权限。";
+eventPersonTitle                = "人";
+appliedTitle                    = "已报名";
+attendTitle                     = "已签到";
+placedSignUpCountMsg            = "已报名%@人";
+
+eventTopicTitle      = "活动主题";
+eventGroupTitle      = "活动协会";
+eventDateTitle       = "活动时间";
+eventAddressTitle    = "活动地址";
+eventDescTitle       = "活动内容";
+
+hostTitle = "主办方";
+detailTitle = "查看";
+winnerTitle = "中奖名单";
+activityShareTitle = "活动资料分享";
+activityHostTitle = "活动主办方";
+activitySponsorTitle = "活动赞助商";
+checkInButTitle = "签到";
+signUpButTitle = "已报名";
+noAwardMsg = "本次活动没有现场摇奖";
+followTitle = "关注";
+followedTitle = "已关注";
+followedAlumnusTitle = "已关注的校友";
+unfollowTitle = "取消关注";
+backProjectTitle = "想参与";
+backedProjectTile = "已参与";
+backedAlumnusTitle = "已参与的校友";
+surveyCannotEditMsg = "报名参与已截止，问卷不能再更改";
+
+// Filter
+filterEventType = "活动筛选";
+filterEventCity = "活动城市";
+filterOrderTitle = "排序方式";
+filterGroupType = "协会筛选";
+
+// Club
+clubListMemberTitle = "成员数";
+clubListEventTitle = "活动数";
+clubListPostTitle = "发言数";
+clubDetailMemberTitle = "会员";
+clubDetailEventTitle = "活动";
+clubDetailTitle = "协会详情";
+clubManageTitle = "成员管理";
+clubLabelTitle = "成员";
+activityLabelTitle = "活动";
+clubAddMemberTitle = "添加新成员";
+clubEventTitle = "活动列表";
+joinButTitle = "加入";
+quitButTitle = "删除并退出";
+quitNoteTitle = "确认要退出吗?";
+clubQuitButTitle = "退出协会";
+clubJoinButTitle = "加入协会";
+updateUserInfoTitle = "信息确认";
+updateUserInfoNote = "签到成功！请确认个人信息：";
+unCheckInButTitle = "取消签到";
+adminCheckButTitle = "协助签到";
+adminCheckSmsTitle = "个人信息已保存。是否需要短信通知该用户 中欧校友汇 APP 下载地址?";
+adminCheckInButTitle = "管理员协助签到";
+adminUnCheckInButTitle = "取消签到本活动";
+adminShowCheckInButTitle = "签到人员投影显示";
+recommendClubTitle      = "推荐";
+loadGroupFailedMsg = "获取群组失败";
+loadFilterOptionsFailedMsg = "获取筛选条件失败";
+forAllAlumnusTitle = "面向全体中欧校友";
+servicePlanTitle = "服务计划";
+constitutionTitle = "章程";
+councilListTitle = "理事会名单";
+getUserDetailFailedMsg = "获取人员详细内容失败";
+groupManagementTitle = "群组管理";
+paidUserCannotExitMsg = "您是已付费会员，如要退出，请联系协会秘书长";
+needPayGroupFeeMsg = "加入本群组需要缴纳会费，是否现在缴纳？";
+
+clubNotify2SharingTitle = "通知、主题分享";
+question2AnswerButTitle = "在线问答";
+createTimeTitle = "创建时间";
+clubPostTitle = "动态广场";
+groupTrendsTitle = "群组动态";
+postTitle = "发帖";
+postInputTitle = "请输入";
+postDetailTitle = "帖子明细";
+postSurveyTitle = "填写问卷";
+postReSurveyTitle = "重新填写问卷";
+postSurveyResultTitle = "查看结果";
+
+dateTitle = "日期";
+timeTitle = "时间";
+contactTitle = "联系人";
+telTitle = "电话";
+addressTitle = "地址";
+sentFromExpatCircleAppTitle= "发送自中欧校友汇应用程序";
+cannotSendSMSMsg          = "不支持发送短信";
+cannotSendEmailMsg        = "不支持发送邮件";
+addPhotoSubTitle          = "添加照片，分享给大家";
+noLikerNotifyMsg          = "赞一个吧";
+serviceProviderTitle      = "服务提供商";
+recruiterTitle            = "招聘方";
+organizerTitle            = "组织者";
+transitTitle              = "周边交通";
+routeTitle                = "路线";
+recommendationsTitle      = "商家推荐";
+chineseDishTitle          = "中文菜名";
+validityTitle             = "有效期";
+disclaimersTitle          = "免责声明";
+reviewsTitle              = "评论";
+reviewsEmptyMsg           = "评论内容不能为空";
+writeReviewsTitle         = "添加评论...";
+loadReviewsFailedMsg      = "装载评论失败";
+newReviewTitle            = "新评论";
+serviceQuickTipsTitle     = "服务贴士";
+sourceTitle               = "来源";
+jdTitle                   = "职位描述";
+couponDetailTitle         = "优惠详情";
+priceDetailTitle          = "价格信息";
+valueTitle                = "价值";
+prpTitle                  = "原价:";
+formatedPrpTitle          = "原价:%@元";
+yuanTitle                 = "元";
+discountsTitle            = "折";
+highlightsTitle           = "详情";
+modifyMobileTitle = "修改手机号码";
+modifyEmailTitle = "修改邮箱";
+modifyEmailDoneMsg = "修改邮箱成功";
+modifyEmailFailedMsg = "修改邮箱失败";
+modifyMobileDoneMsg = "修改手机号成功";
+modifyMobileFailedMsg = "修改手机号失败";
+alumniDetailTitle = "校友明细";
+addNewContactTitle = "创建新联系人";
+addExistingContactTitle = "添加到已存在联系人";
+cannotCallMsg = "该设备不支持电话功能";
+
+sponsorTitle = "明细";
+changeTitle = "￥会员费";
+emailTitle = "邮箱";
+websiteTitle = "网址";
+membersTitle = "人员列表";
+activitysTitle = "活动列表";
+
+notCEIBSAlumniMsg = "中欧校友库查询不到该人员信息。";
+
+newClubPostTitle = "最新动态";
+allClubPostTitle = "全部动态";
+myClassCircleTitle = "我的协会";
+clubDescTitle = "协会详情";
+activeClubTitle = "活跃协会";
+newClubEventTitle = "近期活动";
+noClubEventTitle = "无近期活动";
+groupEventTitle = "协会与活动";
+groupMemberTitle = "协会成员";
+classMemberTitle = "班级成员";
+noGroupEventTitle = "无群组活动";
+clubTrendTitle = "协会动态";
+myGroupsTitle = "我的群组";
+allGroupsTitle = "所有群组";
+groupsTitle = "群组";
+paidDateMsg = "已于%@完成缴费";
+payNowTitle = "马上缴费";
+renewalsTitle = "马上续费";
+
+// shake
+shakeLoadingTitle = "正在查找附近校友...";
+shakeNoteTitle = "摇出校友，摇出惊喜!";
+shakeForAwardsTitle = "摇出惊喜!";
+shakeRoarTitle = "吼一声";
+shakeChatListTitle = "私聊记录";
+shakeThingTitle = "我正在...";
+shakeThingNoteTitle = "手动输入你的状态";
+shakePlaceTitle = "我位于...";
+shakePlaceNoteTitle = "手动输入你所在的地点";
+shakePlaceLabelTitle = "我在";
+shakeThingLabelTitle = "";
+chatTitle = "发私信";
+distanceTitle       = "距离";
+chartEmptyWarningMsg = "内容不能为空！";
+chatPrompt1Text = "您与";
+chatPrompt2Text = "还没有任何私聊记录，点击底部的输入框向TA打个招呼吧。";
+shakeAwardsTitle = "摇出奖品";
+shakeNameCardInfoMsg = "参加活动、校友聚会、偶遇校友，摇一摇换名片";
+noNameCardMsg = "附近没有校友同时摇手机，快约校友一起摇吧!";
+
+// share
+favoriteStatusTitle = "收藏";
+fetchingTagMsg = "正在获取标签，请稍候再试。";
+weChatShareTitle = "分享到微信";
+
+// Feedback
+feedbackMsg = "本APP由中欧校友会委托校友企业<a href=\\\"http://www.jitmarketing.cn\\\" target=\\\"_blank\\\">上海杰亦特</a>和<br><a href=\\\"http://www.weixun.co\\\" target=\\\"_blank\\\">微讯</a>联合赞助研发，请留下改进建议:";
+feedbackMsg1 = "请填写您的意见或建议:";
+feedbackMsg2 = "若您有移动互联网方面的合作需求,请告诉我们:";
+feedbackMsg3 = "也可通过电话或邮件联系我们:";
+
+submitButTitle   = "提交";
+submitDoneMsg = "提交成功";
+submitFailedMsg = "提交失败";
+supportTelTitle = "电话：";
+supportEmailTitle = "邮件：";
+feecbackEmptyWarningMsg = "反馈内容不能为空！";
+feedbackPromptTitle = "请填写您的意见和建议！";
+
+// common
+closeTitle        = "关闭";
+fetchClassFailedMsg = "加载班级失败";
+fetchCounryFailedMsg = "加载国家失败";
+fetchCityFailedMsg = "加载城市失败";
+fetchIndustryFailedMsg = "加载行业失败";
+fetchNewsFailedMsg  = "获取新闻列表失败，请稍候再试";
+fetchEventsFailedMsg  = "获取活动列表失败，请稍候再试";
+
+// people network
+profileModifyImgTitle = "修改头像";
+baseInfoTitle = "个人信息";
+profileBaseTitle = "基本信息";
+profileHomeTitle = "家庭地址与联系方式";
+profileHomeNoteMsg = "         仅更新到校友库，其他校友不可见";
+profileCompanyTitle = "公司与联系方式";
+profileAccountTitle = "个人简介与微信微博等信息";
+howToKnowTitle = "如何认识他/她";
+maybeConnectedFriendsTitle = "可能共同认识的校友";
+withMeConnectionTitle = "与我的关系";
+whoJoinedGroupTitle = "%@已加入的群组";
+joinedGroupTitle = "已加入的群组";
+favoriteAlumniDoneMsg = "收藏为";
+nameCardTitle = "名片夹";
+checkNameCardTitle = "查看名片夹";
+favoritedAlumnusTitle = "收藏的校友";
+recommendAlumnusTitle = "可能认识的校友";
+knownAlumnusTitle = "已认识的校友";
+wantToKnowAlumniTitle = "想认识的校友";
+classmateTitle = "同班同学";
+nonclassmateTitle = "校友";
+allSupplyDemandTitle = "供需广场";
+deleteFavoriteTitle = "取消收藏";
+orTitle = "或者";
+searchNameCardTitle = "搜索名片夹";
+peopleNetworkTitle = "人脉";
+exchangeNameCardTitle = "交换名片";
+selectAllTitle = "全选";
+deselectAllTitle = "全不选";
+exchangeTitle = "开始交换";
+searchNearbyAlumnusMsg = "正在查找附近10秒内同时摇的校友...";
+confirmReceiveNameCardTitle = "确认收录";
+nameCardExchangeDoneMsg = "名片已收录到\"校友\"的\"已认识的校友\"中";
+checkKnownAlumniTitle = "查看\"已认识的校友\"";
+selectOneNameCardMsg = "请至少选择一位校友";
+shakeForNameCardTitle = "摇一摇换名片";
+receivingTitle = "收录中...";
+addToAddressbook = "添加到通讯录";
+mustSelectFavoriteTypeMsg = "请选择收藏类型";
+dmTitle = "私信";
+dmNotificationTitle = "私信通知";
+havePaidTitle = "已缴费";
+notPaidTitle = "未缴费";
+
+// user list action sheet
+actionSheetTitle = "";
+chatActionSheetTitle = "与其私聊";
+profileActionSheetTitle = "查看个人详细";
+chatWithTitle = "私聊";
+
+// pay
+submitOrderTitle = "提交订单";
+confimOrderTitle = "确认订单";
+confimPayTitle = "确认支付";
+orderDescTitle = "备注";
+orderDescPromptTitle = "请输入信息";
+totalPriceTitle = "总价";
+orderCountTitle = "数量";
+orderItemTitle = "款项";
+orderIdTitle = "订单号";
+orderAmountTitle = "金额";
+payActionSheetTitle = "请选择支付方式";
+orderDetailTitle = "订单详情";
+alipayTitle = "支付宝";
+unionpayTitle = "银联";
+alipayDescTitle = "推荐有支付宝的账户的用户使用";
+unionpayDescTitle = "支持银行卡支付，需开通网银";
+unpayOrderDescTitle = "暂无付费订单，请联系管理员";
+
+// welfare
+wantProvideBenefitTitle     = "我想提供专享";
+provideBenefitNoteTitle     = "感谢校友支持!请填写您企业以及相关福利的信息,我们将尽快与您联系。";
+provideName = "您的姓名";
+provideTel  = "您的电话";
+provideMail = "您的邮箱";
+provideWeixin   = "您的微信号";
+provideBrand    = "品牌名称";
+provideCompanyDesc  = "企业服务介绍";
+provideCompanyScale = "门店覆盖规模";
+provideWelfareDesc  = "针对校友的优惠简介";
+welfareDetailTitle  = "福利详情";
+downloadUserInfoMsg = "人已下载";
+boughtUserInfoMsg = "人已购买";
+endTimeTipsMsg = "%@前使用";
+checkAllStoreMsg = "查看全部%@家分店  >";
+useNoticeTitle = "使用须知";
+contactWelfareSupportMsg = "详情请联系客服:";
+brandInfoTitle = "品牌信息";
+downloadNowTitle = "立即下载";
+storeDetailTitle = "门店详情";
+brandDetailTitle = "品牌详细";
+consultTitle = "垂询或预订，敬请致电:";
+overCountTitle = "当前剩余%@份";
+couponSaveToAlbumMsg = "优惠券已下载保存至相册";
+downloadedUserListTitle = "已下载用户";
+failedToGetOrderMsg = "获取订单信息失败";
+recommendBracketsWelfareTitle = "【推荐福利】";
+alumniPriceTitle = "校友优惠:";
+shareWelfareTitle = "分享福利给朋友";
+
+//---------training----------
+trainingCourse = "课程";
+
+
+downloadStatusPending = "等待";
+downloadStatusFinished = "完成";
+downloadStatusDownloading = "下载中";
+downloadStatusPause = "暂停";
+
+
+groupDeleted = "[通知:群组已删除]";
+
+
+//---------communicat---------
+communicatMemberList = "成员列表";
+communicatHoldTo = "按住说话";
+communicateLoosenTheSendingVoice = "松开发送语音";
+
+
+//---------day----------------
+commonToday = "今天";
+commonYesterDay = "昨日";
+commonWarning = "温馨提示";
+commonError = "错误";
+
+//---------feed--------------
+hourAfterTitle              = "小时后";
+minAfterTitle               = "分钟后";
+secAfterTitle               = "秒后";
+hoursAgoTitle             = "小时前";
+minsAgoTitle              = "分钟前";
+secsAgoTitle              = "秒前";
+
+
+
+pwdFormatIncorrectMsg     = "请确保密码只包含数字和字母";
+
+
+chatGroupTitle = "群组列表";
+chatMemberTitle = "成员";
+
+//ichat
+exitButTitle = "退出群组";
+ICcreateGroupMsg = "群组已创建,赶紧去给大家打招呼吧!";
+ICcreateGroupFailedMsg = "创建群组失败！错误代码:";
+ICcreateGroup = "创建群组";
+ICgroupIcon = "群组图标";
+ICgroupName = "群组名称";
+ICgroupChoosePic = "选择图片";
+ICaddGroup = "加入群组";
+ICchatLoginFail = "登录失败。错误代码";
+ICchatLogoutFail = "已退出登录，错误代码";
+ICchatRecordFail = "语音消息发送失败";
+ICchatTextMode = "文字";
+ICchatRecordMode = "语音";
+ICchatJoinGroupSucMsg="申请加入成功!";
+ICchatJoinGroupStepMsg="本群组不允许未审核会员加入!";
+ICchatJoinGroupStep0Msg = "申请加入已经成功";
+ICchatJoinGroupStep1Msg="加入本群组需要审核，请等待管理员审核通过!";
+ICchatJoinGroupStep2Msg="您之前已申请加入本群组，请等待管理员审核!";
+ICchatOutGroupMsg="您的退出操作失败。请联系管理员!";
+ICchatOutGroupSucMsg="操作成功!";
+ICsearchFriend = "搜索好友";
+ICgroupMemberListTitle = "群成员";
+ICaddFriend = "加为好友";
+ICexitFriend = "删除好友";
+ICaddFriendMsg = "加为好友成功";
+
+//---------day----------------
+commonToday = "今天";
+commonYesterDay = "昨日";
+commonWarning = "温馨提示";
+commonError = "错误";
+
+groupDeleted = "[通知:群组已删除]";
